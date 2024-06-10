@@ -1,5 +1,5 @@
 {
-  "name": "erc20-manager",
+  "name": "evm-faucet-ui",
   "private": true,
   "version": "0.0.0",
   "type": "module",

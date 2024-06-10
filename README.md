@@ -1,9 +1,14 @@
-# Sample Hardhat Project
+# EVM Facuet dApp
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+This is a showcase project that combines a facuet contract and corresponding UI that can be launched on any EVM chain through [Drew Package Manager](https://www.npmjs.com/package/@drewpackages/cli). The setup creates a new ERC-20 token with the name of your choosing and creates a faucet UI that helps anyone mint the token they might need for testing purposes
 
-Try running some of the following tasks:
+To launch a new dApp instance (including new contracts deployment) it:
+```shell
+npm i -g @drewpackages/cli
+drew deploy drinkius/faucet  --params "{\"name\": \"Test Token\", \"symbol\": \"TT\", \"totalSupply\": 100000000000000 }"
+```
 
+## Development
 ```shell
 npx hardhat help
 npx hardhat test
